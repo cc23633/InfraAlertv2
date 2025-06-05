@@ -175,6 +175,8 @@ Você poderá:
 
 ---
 
+### Fazer Build para APK
+
 ## 🧯 Solução de Problemas Comuns
 
 ### ❌ Erros de dependência

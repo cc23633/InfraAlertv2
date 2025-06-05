@@ -15,9 +15,7 @@ import {
 import axios from 'axios';
 import { FontAwesome } from '@expo/vector-icons';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
-
-//url do backend
-const API_URL = 'http://localhost:3000';
+import { API_URL } from '../App';
 
 //função que simula recuperar um token (não tá feita ainda)
 const getAuthToken = async () => {

@@ -16,32 +16,34 @@
     "splash": {
       "image": "./assets/img/logoInfraAlert.png",
       "resizeMode": "contain"
-    },
-    "ios": {
+    },    "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourusername.infraalert", 
+      "bundleIdentifier": "com.juliosaas.infraalert", 
       "config": {
         "googleMapsApiKey": "AIzaSyDUDPsaGDen1k_-1-drjyUWq7207dmmGek" 
       },
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "Este app precisa de acesso à sua localização."
       }
-    },
-    "android": {
+    },"android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png", 
+        "foregroundImage": "./assets/img/logoInfraAlert.png", 
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.yourusername.infraalert", 
+      "package": "com.juliosaas.infraalert", 
       "config": {
         "googleMaps": {
           "apiKey": "AIzaSyDUDPsaGDen1k_-1-drjyUWq7207dmmGek" 
         }
       },
       "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },    "web": {
+      "favicon": "./assets/img/logoInfraAlert.png"
     },
-    "web": {
-      "favicon": "./assets/assets/logoInfraAlert.png"
+    "extra": {
+      "eas": {
+        "projectId": "9bf5e594-4190-4961-b6df-650bf2b22076"
+      }
     }
   }
 }

@@ -10,9 +10,7 @@ import {
 import { FontAwesome } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import axios from 'axios'; // Import axios
-
-// Define the API base URL - Use the exposed URL
-const API_URL = 'http://localhost:3000';
+import { API_URL } from '../App';
 
 export default function Login() {
   const navigation = useNavigation();

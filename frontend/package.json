@@ -6,7 +6,10 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "dev": "expo start --tunnel",
+    "tunnel": "expo start --tunnel",
+    "build": "npx eas build -p android --profile preview"
   },
   "dependencies": {
     "@expo/metro-runtime": "^5.0.4",
@@ -14,16 +17,19 @@
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
     "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
     "expo": "^53.0.9",
+    "ngrok": "^5.0.0-beta.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-native": "^0.79.2",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-maps": "1.20.1",
     "react-native-reanimated": "^3.17.5",
+    "react-native-safe-area-context": "5.4.0",
     "react-native-vector-icons": "^10.2.0",
     "react-native-web": "^0.20.0",
-    "react-native-safe-area-context": "5.4.0"
+    "expo-dev-client": "~5.1.8"
   },
   "devDependencies": {
     "@babel/core": "^7.23.2",
